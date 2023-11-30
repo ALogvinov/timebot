@@ -1,0 +1,47 @@
+{
+  'responseId': '2049b6a3-ff88-4a21-a682-ee68e06cffc9-1ac88cc5',
+  'queryResult': {
+    'queryText': 'кооодинаты 56 87',
+    'parameters': {
+      'latitude': 56.0,
+      'longitude': 87.0
+    },
+    'allRequiredParamsPresent': True,
+    'fulfillmentMessages': [
+      {
+        'text': {
+          'text': [
+            ''
+          ]
+        }
+      }
+    ],
+    'outputContexts': [
+      {
+        'name': 'projects/timebot-xgbk/agent/sessions/beb3c8e7-2e93-6219-027c-1932a4f35a27/contexts/__system_counters__',
+        'parameters': {
+          'no-input': 0.0,
+          'no-match': 0.0,
+          'latitude': 56.0,
+          'latitude.original': '56',
+          'longitude': 87.0,
+          'longitude.original': '87'
+        }
+      }
+    ],
+    'intent': {
+      'name': 'projects/timebot-xgbk/agent/intents/1cbb8809-4231-4bc2-a2ed-0cea869b32a2',
+      'displayName': 'Get time'
+    },
+    'intentDetectionConfidence': 0.7456864,
+    'diagnosticInfo': {
+      'query_sentiment_analysis_error': 'INVALID_ARGUMENT: The language ru is not supported for document_sentiment analysis'
+    },
+    'languageCode': 'ru'
+  },
+  'originalDetectIntentRequest': {
+    'source': 'DIALOGFLOW_CONSOLE',
+    'payload': {}
+  },
+  'session': 'projects/timebot-xgbk/agent/sessions/beb3c8e7-2e93-6219-027c-1932a4f35a27'
+}
