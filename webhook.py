@@ -13,6 +13,9 @@ def index():
     return 'Hello from Flask!'
 
 
+
+
+
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
     return make_response(jsonify(get_result()))
